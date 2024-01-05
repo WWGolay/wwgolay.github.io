@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hello! I am a radio astronomer studying the variable sky."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,28 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Welcome to my personal website! I am a graduate student in the [Department of Astronomy](https://astronomy.fas.harvard.edu/people/walter-will-golay) at [Harvard University](https://www.harvard.edu/) and a member of the [Center for Astrophysics \| Harvard & Smithsonian](https://cfa.harvard.edu/people/will-golay). I am part of the [Cosmic Transients Lab](https://www.transients.science/) advised by [Professor Edo Berger](https://scholar.harvard.edu/eberger/home). Additionally, I am a supporting member of the [Macalester-Augustana-Coe Robotic Observatory](https://macroconsortium.org/) (MACRO) Consortium. I completed my undergraduate degree in physics and astronomy at the [University of Iowa](https://physics.uiowa.edu/) where my research was advised by [Professor Robert Mutel](https://www.physics.uiowa.edu/people/robert-mutel). Previously, I was a summer intern in the [Cosmic Microwave Background Lab](https://cfa.harvard.edu/facilities-technology/cfa-facilities/kovac-cmb-lab) in the [CfA REU Program](https://pweb.cfa.harvard.edu/opportunities/graduate-undergraduate-programs/reu-summer-intern-program) where I worked with [Professor John Kovac](https://astronomy.fas.harvard.edu/people/john-m-kovac) and [Dr. Clara Vergès](https://claraverges.github.io/) on the [BICEP/Keck Array](https://en.wikipedia.org/wiki/BICEP_and_Keck_Array) experiment.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+In my research, I focus on the lowest energy light on the electromagnetic spectrum, often called [radio astronomy](https://public.nrao.edu/radio-astronomy/the-science-of-radio-astronomy/) or centimeter/millimeter/sub-millimeter astronomy. I use [interferometry](https://public.nrao.edu/interferometry-explained/) to combine the signals from multiple radio telescopes to create a virtual telescope the size of the distance between the telescopes. I use radio telescopes like the [National Radio Astronomy Observatory](https://public.nrao.edu/) [Karl G. Jansky Very Large Array](https://public.nrao.edu/telescopes/vla/) (VLA) located in Socorro, New Mexico, which has 27 antennas in a Y-shaped configuration. I also observe with the [Very Long Baseline Array](https://public.nrao.edu/telescopes/vlba/) (VLBA) composed of ten antennas spread across the United States from Hawaii to the Virgin Islands to create the highest resolution images in astronomy using a technique called [Very Long Baseline Interferometry](https://en.wikipedia.org/wiki/Very-long-baseline_interferometry). I also use the [Submillimeter Array](https://lweb.cfa.harvard.edu/sma/) located near the summit of Mauna Kea, Hawaii which operates at the highest frequencies of radio astronomy.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Using these telescopes and others, I observe some of the most energetic events in the universe. Currently, [I am monitoring](https://www.wis-tns.org/astronotes/astronote/2023-266) several [tidal disruption events](https://en.wikipedia.org/wiki/Tidal_disruption_event) which occur when a star passes too close to a supermassive black hole and is torn apart by the black hole's gravity. I am also interested in radio observations of other kinds of transient events like [supernovae](https://en.wikipedia.org/wiki/Supernova), [gamma-ray bursts](https://en.wikipedia.org/wiki/Gamma-ray_burst), and [fast blue optical transients](https://en.wikipedia.org/wiki/Fast_blue_optical_transient).
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I am also interested in the magnetic fields of stars and how they affect stellar evolution, stellar winds, and using them to uncover star-planet interactions. I began work on this topic during my undergraduate research where I observed a suite of radio stars with the VLA at multiple frequencies to determine how their radio emission is produced (ref. [Golay et al. 2023](/files/ThermalGS_Final.pdf)). In my second project, I focused in on one binary star system called [HR1099](https://en.wikipedia.org/wiki/HR_1099), where I used the VLBA to observe at very high resolution. We were able to map how the radio emission follows the binary's orbit: check out [this movie](/files/HR1099_movie.mp4) of our observations (ref. [Golay et al. 2024](/files/HR1099_Preprint.pdf)). Now, I am focusing on modeling how certain stars produce radio "masers" (like a laser, but with microwaves) and observations of exoplanet-hosting stars to search for radio emission from star-planet interactions.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+I am also interested in the automation of small telescopes for undergraduate research and educational use. I am the primary author of the pure-Python package [pyscope](https://pyscope.readthedocs.io/), which provides a simple interface to control astronomical instrumentation and is built on the [ASCOM](https://ascom-standards.org/) standard for easy integration with popular, commercially-available hardware. Observatories using [pyscope](https://pyscope.readthedocs.io/) can take advantage of the [telrun](https://pyscope.readthedocs.io/en/latest/api/pyscope.telrun.html) module for fully-robotic operation. This work is part of the [MACRO Consortium](https://macroconsortium.org/) which operates a 0.5m PlaneWave CDK telescope at the [Winer Observatory](https://www.winer.org/) in Sonoita, Arizona.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Reseach Interests
 
-**Markdown generator**
+* Constraining models of extra-galactic transients by observing their radio emission
+* Modeling and observing stellar radio emission, magnetism, and star-exoplanet interactions
+* Instrumentation and robotic operation of small optical telescopes for educational use
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Contact
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Department of Astronomy\
+Harvard University\
+60 Garden Street, MS-10\
+Cambridge, MA 02138, USA
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Office: A103\
+Email: [wgolay@cfa.harvard.edu](mailto:wgolay@cfa.harvard.edu)
