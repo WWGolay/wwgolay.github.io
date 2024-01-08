@@ -123,6 +123,9 @@ author:
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0001-7946-1034"
+    - label: "Buy me some Dunkin"
+      icon: "fas fa-fw fa-coffee"
+      url: "https://www.buymeacoffee.com/wgolay30t"
 
 footer:
   links:
