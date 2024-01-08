@@ -1,6 +1,5 @@
 ---
 title: "A search for thermal gyro-synchrotron emission from hot stellar coronae"
-collection: publications
 permalink: /publications/thermal-gs
 excerpt: 'We searched for thermal gyro-synchrotron radio emission from a sample of five radio-loud stars whose X-ray coronae...'
 date: 2023-06-01

@@ -23,7 +23,7 @@ A PDF of my CV is available [here](/files/CV_01-05-2024.pdf) (updated 01/05/2024
   {% include archive-single.html %}
 {% endfor %}
 
-<!-- ## Talks
+## Talks
 
 <ul>{% for post in site.talks %}
   {% include archive-single-talk-cv.html %}
@@ -35,6 +35,8 @@ A PDF of my CV is available [here](/files/CV_01-05-2024.pdf) (updated 01/05/2024
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-## Service and leadership
+## Outreach
 
-* Currently signed in to 43 different slack teams -->
+<ul>{% for post in site.outreach %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>

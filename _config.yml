@@ -5,64 +5,83 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# theme                    : minimal-mistakes-jekyll
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site Settings
 locale                   : "en-US"
-title                    : "Walter W. Golay"
+title                    : "Will Golay"
 title_separator          : "-"
-name                     : &name "Walter W. Golay"
-description              : &description "Radio astronomer and graduate student at the Center for Astrophysics | Harvard & Smithsonian"
+name                     : "Will Golay"
+description              : "Radio astronomer and graduate student at the Center for Astrophysics | Harvard & Smithsonian"
 url                      : "https://wwgolay.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wwgolay/wwgolay.github.io"
-teaser                   : "site-logo.png"
+teaser                   : "/images/site-logo.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/images/site-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : true #change to true to add link to talkmap on talks page
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            :
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
+    # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  giscus:
+    repo_id              : # Shown during giscus setup at https://giscus.app
+    category_name        : # Full text name of the category
+    category_id          : # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey                :
+  secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
+  hide                   : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : "google" # lunr (default), algolia, google
+lunr:
+  search_within_pages    : # true, false (default)
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : "72e375b1fa0b14908" # YOUR_SEARCH_ENGINE_ID
+  instant_search         : true # false (default), true
 
 # SEO Related
-google_site_verification :
+google_site_verification : "4rKUVdyrzQEzlbCpGPgFig0iy2wDy1qBKxFrYYxYqfI"
 bing_site_verification   :
-alexa_site_verification  :
+naver_site_verification  :
 yandex_site_verification :
+baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -70,52 +89,61 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-
 # Analytics
 analytics:
-  provider               :  "google" # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "G-WB826H2SHG"
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Walter W. (Will) Golay"
-  avatar           : "profile.jpg"
-  bio              : "Radio Astronomer and Graduate Student in Astronomy at the Center for Astrophysics | Harvard & Smithsonian"
-  location         : "Cambridge, Massachusetts, USA"
+  avatar           : "/images/profile.jpg"
+  bio              : "Radio Astronomer and Graduate Student in Astronomy at Harvard University"
+  location         : "Cambridge, MA, USA"
   employer         : 
-  pubmed           : 
-  googlescholar    : 
-  email            : "wgolay@cfa.harvard.edu"
-  researchgate     : 
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "wwgolay"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : 
-  lastfm           :
-  linkedin         : "https://www.linkedin.com/in/willgolay/"
-  orcid            : "https://orcid.org/0000-0001-7946-1034"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : 
-  steam            :
-  tumblr           :
-  twitter          : "wwgolay"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:wgolay@cfa.harvard.edu"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/wwgolay/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/willgolay/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wwgolay/"
+    - label: "ADS"
+      icon: "fas fa-search"
+      url: "https://ui.adsabs.harvard.edu/public-libraries/cbvuiG8RSn2nVfQr9l3Osg"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0001-7946-1034"
 
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:wgolay@cfa.harvard.edu"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/wwgolay/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/willgolay/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wwgolay/"
+    - label: "ADS"
+      icon: "fas fa-search"
+      url: "https://ui.adsabs.harvard.edu/public-libraries/cbvuiG8RSn2nVfQr9l3Osg"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0001-7946-1034"
 
 # Reading Files
 include:
@@ -187,6 +215,9 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  outreach:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -195,6 +226,13 @@ defaults:
   - scope:
       path: ""
       type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
     values:
       layout: single
       author_profile: true
@@ -218,10 +256,10 @@ defaults:
       type: talks
     values:
       layout: talk
-  # _teaching
+  # _outreach
   - scope:
       path: ""
-      type: teaching
+      type: outreach
     values:
       layout: single
       author_profile: true
@@ -302,6 +340,3 @@ compress_html:
   ignore:
     envs: development
 
-# remote_theme             : "mmistakes/minimal-mistakes"
-# minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-# logo                     : "site-logo.png"
