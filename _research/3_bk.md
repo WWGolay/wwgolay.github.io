@@ -1,0 +1,17 @@
+---
+title: "BICEP/Keck Array"
+permalink: /research/bk/
+date: 2024-01-08
+excerpt: "The [BICEP/Keck Array](http://bicepkeck.org/) is a series of telescopes located at the [Amundsen-Scott South Pole Station](https://www.usap.gov/videoclipsandmaps/spwebcam.cfm)..."
+header:
+    teaser: /images/bk.png
+    image: /images/bk.png
+    image_description: "The BICEP/Keck Array located at the South Pole. _image credit: [BICEP/Keck Collaboration](http://bicepkeck.org/)_"
+    caption: "The BICEP/Keck Array located at the South Pole. _image credit: [BICEP/Keck Collaboration](http://bicepkeck.org/)_"
+---
+
+The [BICEP/Keck Array](http://bicepkeck.org/) is a series of telescopes located at the [Amundsen-Scott South Pole Station](https://www.usap.gov/videoclipsandmaps/spwebcam.cfm) that observes the [Cosmic Microwave Background](du/research/topic/cosmic-microwave-background) (CMB). The CMB is the furthest we can see into the past, emitted just 380 thousand years after the Big Bang. Since there were no stars or galaxies at that time, observing the CMB is an excellent choice for studying the structure of our universe. The CMB is nearly-uniform, but has small fluctuations in both its "temperature" (or brightness) and [polarization](https://byjus.com/physics/polarization-of-light/). These fluctuations can be used to test models of the early universe and the physics at play. The polarization of the CMB contains information about the [inflation](https://en.wikipedia.org/wiki/Inflation_(cosmology)) of the universe, which is a period of rapid expansion that is theorized to have occurred shortly after the Big Bang. Although there is no direct evidence for inflation yet, it solves a number of very significant problems in cosmology (such as the [horizon problem](https://en.wikipedia.org/wiki/Horizon_problem) and the [flatness problem](https://en.wikipedia.org/wiki/Flatness_problem)). The BICEP/Keck Array is designed to observe the [CMB's polarization](http://background.uchicago.edu/~whu/polar/webversion/polar.html) with extremely high precision and accuracy with hopes of uncovering the signal from inflation. The South Pole is an excellent location for observing the same spot in the sky since it is continuously nighttime for half the year due to the Earth’s tilted rotation axis relative to the Sun.
+
+To produce such precise measurements, the instrument must be very-well calibrated and characterized. In my role as an [REU student](https://pweb.cfa.harvard.edu/opportunities/graduate-undergraduate-programs/reu-summer-intern-program), I was responsible for designing a new algorithm for measuring how the telescope's detectors respond to light coming from different angles. This angular dependence is called the "beam" of the telescope, which can affect how the polarization of the CMB is measured. My algorithm performed an important step in the analysis called "demodulation" which is used to ensure the observed signal is from the calibration source we are observing during testing.
+
+More recently, I have taken a new angle in this project where I am working with the actual CMB data. Since the BICEP/Keck Array is constantly observing the same patch of sky, it is an excellent choice for potentially detecting new sources that show up, called transients. I am attempting to extract point sources from the CMB maps to measure the long-term variability of known sources and search for new, previously undetected sources.

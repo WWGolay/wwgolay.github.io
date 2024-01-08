@@ -12,8 +12,8 @@ main:
   - title: "Talks"
     url: /talks/  
 
-  - title: "Outreach"
-    url: /outreach/
+#   - title: "Outreach"
+#     url: /outreach/
         
   - title: "Posts"
     url: /year-archive/

@@ -35,8 +35,9 @@ A PDF of my CV is available [here](/files/CV_01-05-2024.pdf) (updated 01/05/2024
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-## Outreach
+<!-- ## Outreach
 
 <ul>{% for post in site.outreach %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
+-->

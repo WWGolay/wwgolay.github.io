@@ -1,15 +1,17 @@
 ---
 title: "Tidal Disruption Events"
 permalink: /research/tdes/
-# excerpt: ""
-date: 2024-01-07
+date: 2024-01-08
+excerpt: "Nearly all galaxies have a [supermassive black hole](https://en.wikipedia.org/wiki/Supermassive_black_hole) (SMBH) at their center..."
 header:
     teaser: /images/tdes.png
     image: /images/tdes.png
-    image_description: "Artist's impression of a star being torn apart by a supermassive black hole."
+    image_description: "Artist's impression of a star being torn apart by a supermassive black hole. _image credit: M. Kornmesser / ESO_"
     caption: "Artist's impression of a star being torn apart by a supermassive black hole. _image credit: M. Kornmesser / ESO_"
-tags: 
-    - tidal disruption events
 ---
 
-Tidal disruption events are
+Nearly all galaxies have a [supermassive black hole](https://en.wikipedia.org/wiki/Supermassive_black_hole) (SMBH) at their center, including the Milky Way's [Sagittarius A\*](https://en.wikipedia.org/wiki/Sagittarius_A*). However, most of these SMBHs are not very active: most often, they are only consuming a small amount of matter, which means they do not emit much light. More often, we observe the _effects_ of SMBHs; for example, this was done to confirm there was a "compact object" at the center of the Milky Way a few years prior to the first [direct imaging of Sag A\*](https://news.mit.edu/2022/first-supermassive-black-hole-sagitarrius-0512), which won a [Nobel Prize](https://www.nobelprize.org/prizes/physics/2020/summary/) in 2020. Reinhard Genzel and Andrea Ghez observed a number of stars very near the center of the Milky Way and tracked their orbits for ~20 years and used [Kepler's Third Law](https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion#Third_law) which relates the period and semi-major axis of an orbit to the mass of the central object. They were able to show that the mass of the central object was ~4 million times the mass of the Sun and that it must be very small (smaller than Mercury's orbit), which can only be explained by an SMBH.
+
+Tidal disruption events (TDEs) are rare, highly energetic phenomena that put previously-dormant SMBHs into action. Just like in our Milky Way, many SMBHs have stars that orbit very nearby. If a star passes too close to the SMBH, the force of gravity becomes significant, and the star is no longer able to hold itself together. This effect is caused by more gravitational force on the side of the star nearer than on the side farther from the SMBH, which stretches the star in a process called "tidal disruption" since this difference in force is the same way that the Moon contributes to the tides on Earth. The star is "spaghettified" and torn apart, and some of the material begins to fall into the SMBH and the rest is flung away from the SMBH into the surrounding medium. Check out this [simulation](https://www.youtube.com/watch?v=yXIRhYBRtRE) of what this might look like. The resulting flare of light is very luminous and can be observed from millions of light-years away.
+
+My research focuses on using [radio telescopes](https://public.nrao.edu/telescopes/) to observe TDEs. The radio emission is produced by the interaction of the material that is flung away from the SMBH with the surrounding matter. This interaction produces a shockwave that rapidly accelerates the particles, which causes a type of emission called [synchrotron radiation](https://en.wikipedia.org/wiki/Synchrotron_radiation#In_astronomy), which is most often observed at radio wavelengths. This means the radio observations can be used to study how the material from the star is ejected away from the SMBH, which can help us understand the properties of the SMBH and the surrounding environment.

@@ -13,5 +13,10 @@ var addressPoints = [
     "Tuscon, AZ, USA",
     32.3090726,
     -111.0827253
+  ],
+  [
+    "Cambridge, MA, USA",
+    42.3655767,
+    -71.1040018
   ]
 ];
