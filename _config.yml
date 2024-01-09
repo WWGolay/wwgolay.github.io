@@ -18,6 +18,7 @@ description              : "Radio astronomer and graduate student at the Center 
 url                      : "https://wwgolay.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "wwgolay/wwgolay.github.io"
+favicon                  : "/images/favicon.ico" # path of favicon image, e.g. "/assets/images/88x88.png"
 teaser                   : "/images/site-logo.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/images/site-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -101,7 +102,7 @@ analytics:
 author:
   name             : "Walter W. (Will) Golay"
   avatar           : "/images/profile.jpg"
-  bio              : "Radio Astronomer and Graduate Student in Astronomy at Harvard University"
+  bio              : "Radio Astronomer and Graduate Student at Harvard University"
   location         : "Cambridge, MA, USA"
   employer         : 
   links:
