@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/hr1099-timelapse-vlbi
 date: 2024-01-08
 venue: 'arXiv (Submitted to ApJ)'
-paperurl: '/files/HR1099_preprint.pdf'
+paperurl: '/files/HR1099_Preprint.pdf'
 ---
 
 [Paper webpage](https://wwgolay.github.io/HR1099-timelapse-vlbi/README.html) / [ADS link](https://arxiv.org/abs/2401.03045)
